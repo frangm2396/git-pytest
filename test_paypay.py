@@ -8,5 +8,5 @@ def test_iseven():
     assert paypay.iseven(200)
     assert paypay.iseven(230132)
 
-def funcion_prueba(arg1,arg2):
-    return arg1+arg2
+def test_funcion_prueba():
+    assert paypay.sqrt(9,1e-10)==3
