@@ -7,3 +7,6 @@ def test_iseven():
     assert paypay.iseven(2)
     assert paypay.iseven(200)
     assert paypay.iseven(230132)
+
+def funcion_prueba(arg1,arg2):
+    return arg1+arg2
